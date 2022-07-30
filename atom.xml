@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://kakadiary.github.io</id>
+    <title>卡卡的鼓捣日记</title>
+    <updated>2022-07-30T11:55:25.255Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://kakadiary.github.io"/>
+    <link rel="self" href="https://kakadiary.github.io/atom.xml"/>
+    <subtitle>. 分 享 热 爱 .</subtitle>
+    <logo>https://kakadiary.github.io/images/avatar.png</logo>
+    <icon>https://kakadiary.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 卡卡的鼓捣日记</rights>
+    <entry>
+        <title type="html"><![CDATA[普联XDR6088 新固件复测（固件版本1.0.22）]]></title>
+        <id>https://kakadiary.github.io/post/tp_xdr6088_1022/</id>
+        <link href="https://kakadiary.github.io/post/tp_xdr6088_1022/">
+        </link>
+        <updated>2022-07-30T01:07:44.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="1015版固件的问题">1.0.15版固件的问题</h2>
+<p>我们的在<a href="https://www.bilibili.com/video/BV1uv4y1u7jZ/"  target="_blank" style="color:#0096ff;"> <em>《最便宜的双2.5G+USB3.0 普联XDR6088详尽对比评测》</em></a> 视频中，使用的1.0.15版固件进行测试。测试结果与使用同平台同芯片的红米AX6000类似，<b style="color:#F6358A">在与iPhone配合时，都出现了无线速率表现较差的情况。</b>除此之外，<b style="color:#F6358A">XDR6088和采用麒麟无线芯片的华为P40Pro配合使用时，远距离测试结果拉胯！</b>我们一起来看看1.0.22版固件是否解决了这些问题。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="1015版固件的问题">1.0.15版固件的问题</h2>
+<p>我们的在<a href="https://www.bilibili.com/video/BV1uv4y1u7jZ/"  target="_blank" style="color:#0096ff;"> <em>《最便宜的双2.5G+USB3.0 普联XDR6088详尽对比评测》</em></a> 视频中，使用的1.0.15版固件进行测试。测试结果与使用同平台同芯片的红米AX6000类似，<b style="color:#F6358A">在与iPhone配合时，都出现了无线速率表现较差的情况。</b>除此之外，<b style="color:#F6358A">XDR6088和采用麒麟无线芯片的华为P40Pro配合使用时，远距离测试结果拉胯！</b>我们一起来看看1.0.22版固件是否解决了这些问题。</p>
+<!-- more -->
+<h2 id="1022版固件更新了啥">1.0.22版固件更新了啥？</h2>
+<figure data-type="image" tabindex="1"><img src="https://static-mu-five.vercel.app/tp_xdr6088_1022/updateDocument.gif" alt="" loading="lazy"></figure>
+<p>普联官方并未说明22版固件更新内容！😓😓😓<br>
+大概是由于1.0.21版固件是个大版本更新，增加了Docker、行为管理和游戏加速功能，而22版固件更新日期与21版十分接近，大概率是一个修复Bug的常规版本升级。</p>
+<h2 id="1022版固件针对性复测">1.0.22版固件针对性复测</h2>
+<hr/>
+<center><b>
+<p><mark>配合iPhone13的无线性能测试结果（Mbps）</mark></p>
+<p></b></center></p>
+<div  style="display:flex;justify-content:center;align-items:center; ">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">固件</th>
+<th style="text-align:center">A点</th>
+<th style="text-align:center">B点</th>
+<th style="text-align:center">C点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1.0.15</td>
+<td style="text-align:center">802</td>
+<td style="text-align:center">242</td>
+<td style="text-align:center">46</td>
+</tr>
+<tr>
+<td style="text-align:center">1.0.22</td>
+<td style="text-align:center">808</td>
+<td style="text-align:center">332</td>
+<td style="text-align:center">77</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>从测试结果看，新版固件在A点速率表现和老版固件在伯仲之间，但在<b style="color:#F6358A">B、C两点分别提升了37%和65%，提升幅度相当大！</b>要知道 <a href="https://www.19ta.cc/post/redmi-ax6000-test/">红米AX6000的新固件复测</a>，iPhone的提升并不明显，看来联发科平台确实还有很大优化空间。</p>
+<hr/>
+<center><b>
+<p><mark>配合华为P40Pro的无线性能测试结果（Mbps）</mark></p>
+<p></b></center></p>
+<div  style="display:flex;justify-content:center;align-items:center; ">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">固件</th>
+<th style="text-align:center">A点</th>
+<th style="text-align:center">B点</th>
+<th style="text-align:center">C点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1.0.15</td>
+<td style="text-align:center">--</td>
+<td style="text-align:center">--</td>
+<td style="text-align:center">15</td>
+</tr>
+<tr>
+<td style="text-align:center">1.0.22</td>
+<td style="text-align:center">--</td>
+<td style="text-align:center">--</td>
+<td style="text-align:center">47</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>唉！XDR6088配合华为P40Pro的远距离速率虽然提升不小，但表现依旧疲软，未达到正常水平。😪😤😤</p>
+<hr/>
+<p>无论是红米AX6000还是XDR6088在评测视频中与同平台的K50Pro配合使用时，速率表现差强人意。既然新固件和iPhone的测试结果喜人，那配合同平台的K50Pro会不会也有提升呢？</p>
+<center><b>
+<p><mark>配合红米K50Pro的无线性能测试结果（Mbps）</mark></p>
+<p></b></center></p>
+<div  style="display:flex;justify-content:center;align-items:center; ">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">固件</th>
+<th style="text-align:center">A点</th>
+<th style="text-align:center">B点</th>
+<th style="text-align:center">C点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1.0.15</td>
+<td style="text-align:center">938</td>
+<td style="text-align:center">369</td>
+<td style="text-align:center">150</td>
+</tr>
+<tr>
+<td style="text-align:center">1.0.22</td>
+<td style="text-align:center">937</td>
+<td style="text-align:center">415</td>
+<td style="text-align:center">165</td>
+</tr>
+</tbody>
+</table>
+</div>
+从测试结果看，<b style="color:#F6358A">在B、C两点均有10%左右的提升</b>。
+<hr/>
+<p>除此之外，<b style="color:#F6358A">15版固件中出现的smb方式无法正常访问USB外接存储设备的问题也已经解决</b>，在浏览器输入IP地址即可找到USB3.0接入的存储设备。</p>
+<figure data-type="image" tabindex="2"><img src="https://static-mu-five.vercel.app/tp_xdr6088_1022/smb.png" alt="" loading="lazy"></figure>
+<hr/>
+<h2 id="1022固件测试总结">1.0.22固件测试总结：</h2>
+<p>✅ 与iPhone配合使用，在中远距离的速率表现提升十分明显！</p>
+<p>⭕️ 与麒麟芯片的华为P40pro配合使用时，远距离速率表现拉胯的问题仍为解决。</p>
+<p>✅ 与同平台K50Pro配合使用时，中远距离速率表现有10%左右的提升。</p>
+<p>⬆️ 整体而言，1.0.22版固件的速率表现非常出色，并且还支持Docker、行为管理以及游戏加速，强烈推荐小伙伴们升级。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[红米AX6000新版固件1.0.60解决问题了吗？]]></title>
+        <id>https://kakadiary.github.io/post/redmi-ax6000-test/</id>
+        <link href="https://kakadiary.github.io/post/redmi-ax6000-test/">
+        </link>
+        <updated>2022-07-22T02:12:15.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="1048版固件的问题">1.0.48版固件的问题</h2>
+<p>在<a href="https://www.bilibili.com/video/BV1wv4y1w74C/" style="color:#0096ff;"> <em>《别急着入手！红米AX6000详尽对比评测》</em></a> 的评测视频中，使用1.0.48版固件的红米AX6000与iPhone配合测试时，<b style="color:#F6358A">出现无线速率表现较差、无缝漫游掉线的情况，与高通平台的小米11配合测试时，平均延时较高。</b>新版固件解决了这些问题吗？😰😰😰</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="1048版固件的问题">1.0.48版固件的问题</h2>
+<p>在<a href="https://www.bilibili.com/video/BV1wv4y1w74C/" style="color:#0096ff;"> <em>《别急着入手！红米AX6000详尽对比评测》</em></a> 的评测视频中，使用1.0.48版固件的红米AX6000与iPhone配合测试时，<b style="color:#F6358A">出现无线速率表现较差、无缝漫游掉线的情况，与高通平台的小米11配合测试时，平均延时较高。</b>新版固件解决了这些问题吗？😰😰😰</p>
+<!-- more -->
+<h2 id="1060版固件更新了啥">1.0.60版固件更新了啥？</h2>
+<p>经过漫长的等待，红米AX6000终于在7月18日更新了新版固件，更新内容见下图：</p>
+<figure data-type="image" tabindex="1"><img src="https://static-mu-five.vercel.app/redmi-ax6000-1.0.60/1.0.60.png" alt="" loading="lazy"></figure>
+<p>📋 在1.0.60版固件更新日志明确标识，<b style="color:	#3EA99F">提升了稳定性和性能，修复了若干已知问题。</b></p>
+<!-- more -->
+<h2 id="1060版固件简单测试">1.0.60版固件简单测试</h2>
+<p>下面我们针对评测视频中的问题，进行针对性复测，看看1.0.60版固件的效果如何？<br>
+我们来看看测试结果：</p>
+<hr/>
+<center><b>
+<p><mark>配合iPhone13的无线性能测试结果（Mbps）</mark></p>
+<p></b></center></p>
+<div  style="display:flex;justify-content:center;align-items:center; ">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">固件</th>
+<th style="text-align:center">A点</th>
+<th style="text-align:center">B点</th>
+<th style="text-align:center">C点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1.0.48</td>
+<td style="text-align:center">796</td>
+<td style="text-align:center">283</td>
+<td style="text-align:center">38</td>
+</tr>
+<tr>
+<td style="text-align:center">1.0.60</td>
+<td style="text-align:center">771</td>
+<td style="text-align:center">304</td>
+<td style="text-align:center">47</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>从测试结果看，新版固件在距离较近的A点稍逊一筹，但在中远距离有小幅度提升。整体表现略强于老版固件，但差别并不明显。</p>
+<hr/>
+<center><b>
+<p><mark>配合iPhone13的无缝漫游测试结果</mark></p>
+<p></b></center></p>
+<div  style="display:flex;justify-content:center;align-items:center;">
+<div style="overflow:scroll;overflow-y:hidden;">
+<table>
+<thead>
+<tr>
+<th>固件</th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+<th>D</th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+<th>D</th>
+<th>丢包</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0.48</td>
+<td>2</td>
+<td>L</td>
+<td>6</td>
+<td>10</td>
+<td>9</td>
+<td>L</td>
+<td>1</td>
+<td>4</td>
+<td>2</td>
+</tr>
+<tr>
+<td>1.0.60</td>
+<td>1</td>
+<td>8</td>
+<td>3</td>
+<td>5</td>
+<td>7</td>
+<td>6</td>
+<td>3</td>
+<td>1</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>无缝漫游测试结果恢复正常水平，经多次测试没有发生掉线的情况，并且漫游延时和丢包表现都不错，实际体验漫游跳转也很积极，没有迟滞现象！</p>
+<hr/>
+<center><b>
+<p><mark>小米11的延时测试</mark></p>
+<p></b></center></p>
+<div  style="display:flex;justify-content:center;align-items:center">
+<table>
+<thead>
+<tr>
+<th>固件</th>
+<th>平均延时</th>
+<th>抖动延时</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0.48</td>
+<td>9.21</td>
+<td>9.98</td>
+</tr>
+<tr>
+<td>1.0.60</td>
+<td>7.90</td>
+<td>8.57</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>延时测试的表现也要稍强于老版本固件，但提升并不明显。</p>
+<hr/>
+<!-- more -->
+<p>从测试结果看，1.0.60版固件相较于1.0.48版固件而言，还是有一定提升的。</p>
+<p>✅ 尤其在配合iphone的无缝漫游体验上，没有出现掉线的情况，并且测试数据和实际体验都不错。</p>
+<p>⭕️ 与iphone配合的速率表现提升有限，在同配置的普联xdr6088的评测视频中，同样出现iPhone速率表现不佳的情况。个人感觉大概率应该是联发科平台的兼容性问题。</p>
+<p>✅ 延时测试方面，小米11在新版固件下的表现稍强于老版本。</p>
+<p>⬆️ 整体而言，个人感觉1.0.60版固件虽然没有令人眼前一亮，但还是值得升级的。不过红米AX6000的固件更新速度实在是让人捉急，希望下一版固件更尽快更新。</p>
+]]></content>
+    </entry>
+</feed>
